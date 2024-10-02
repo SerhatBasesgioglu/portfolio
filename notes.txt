@@ -1,0 +1,8 @@
+Create a favicon
+Look into opengraph-image
+twitter property at metadata, it is about opengraph-image again, look into that
+use inter at rootlayout, uses local font so ip does not leak to google
+use next js image tag instead of html image
+overriding the metadata in sub pages, look into generateMetaData() function
+look into sitemap, it is important for subpages that is not linked in the website
+look into robots.txt stuff
