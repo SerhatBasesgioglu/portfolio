@@ -9,15 +9,8 @@ const Home = () => {
       </section>
       <section className="my-8">
         <h2 className="text-2xl font-bold">Projects</h2>
-        <p>I made a couple of projects which can be seen below!</p>
-        <div>
-          <p>Plus30</p>
-          <p>Portfolio</p>
-          <p>MicroserviceTest</p>
-          <p>Blog</p>
-        </div>
+        <ProjectList />
       </section>
-      <ProjectList />
     </div>
   );
 };
