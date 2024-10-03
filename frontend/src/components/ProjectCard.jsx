@@ -1,10 +1,8 @@
-const ProjectCard = () => {
+const ProjectCard = ({ title, description }) => {
   return (
     <div>
-      <p>Project image</p>
-      <p>Project title</p>
-      <p>Project Description</p>
-      <p>Tech stack</p>
+      <p>{title}</p>
+      <p>{description}</p>
     </div>
   );
 };
