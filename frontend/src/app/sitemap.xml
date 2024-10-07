@@ -5,4 +5,11 @@
     <changefreq>yearly</changefreq>
     <priority>1</priority>
   </url>
+  <url>
+    <loc>https://serhatbasesgioglu.com</loc>
+    <lastmod>2023-07-06T21:27:00.000Z</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>2</priority>
+  </url>
+    
 </urlset>
