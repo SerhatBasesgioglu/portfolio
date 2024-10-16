@@ -1,7 +1,8 @@
-export default function portfolioPage() {
+const PortfolioPage = () => {
   return (
     <>
-      <p>This is the portfolioPage</p>
+      <p>This is the portfolo page</p>
     </>
   );
-}
+};
+export default PortfolioPage;

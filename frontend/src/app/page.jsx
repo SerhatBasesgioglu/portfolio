@@ -4,9 +4,9 @@ import Image from "next/image";
 
 const Home = () => {
   return (
-    <div className="flex flex-col min-h-screen justify-evenly items-center">
-      <section className="mb-8">
-        <h2 className="text-2xl font-bold">About me</h2>
+    <div className="flex flex-col min-w-full justify-evenly items-center">
+      <section className="w-10/12 md:w-8/12 lg:w-4/12 flex flex-col items-center">
+        <h2 className="text-2xl font-bold py-4">About me</h2>
         <p>
           Hi, my name is Serhat, I am a software engineer. I am more of a
           generalist rather than a specialist in a field.I like to work on hobby
@@ -22,6 +22,21 @@ const Home = () => {
           <Link href="/blog">Blog</Link>
         </div>
       </section>
+
+      <div className="flex space-x-10">
+        <section>
+          <p>Featured Projects</p>
+          <p>Plus30</p>
+          <p>Queue Bot</p>
+          <p>See more</p>
+        </section>
+        <section>
+          <p>Featured Blogs</p>
+          <p>Test blog 1</p>
+          <p>Test blog 2</p>
+          <p>And more</p>
+        </section>
+      </div>
 
       <section className="flex flex-col items-center">
         <h2 className="text-2xl font-bold">Socials</h2>
