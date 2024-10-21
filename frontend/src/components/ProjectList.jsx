@@ -5,6 +5,9 @@ const ProjectList = () => {
     {
       title: "Plus30",
       description: "League of legends lobby manager",
+      image: "add image",
+      techList: "add logos for stack",
+      link: "add link to repo",
     },
     {
       title: "Portfolio/Blog",

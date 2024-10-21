@@ -1,11 +1,11 @@
-const ProjectCard = ({ title, description }) => {
+const ProjectCard = ({ image, title, description, techList, link }) => {
   return (
-    <div className="bg-gray-100 max-w-sm">
-      <p>Insert image here</p>
+    <div className="max-w-sm">
+      <p>{image}</p>
       <p>{title}</p>
       <p>{description}</p>
-      <p>Technologies Used</p>
-      <p>Source code</p>
+      <p>{techList}</p>
+      <p>{link}</p>
     </div>
   );
 };
